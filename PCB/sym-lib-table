@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BSS138")(type "KiCad")(uri "${KIPRJMOD}/footprints/BSS138.kicad_sym")(options "")(descr ""))
+  (lib (name "rp2040xiao")(type "KiCad")(uri "${KIPRJMOD}/footprints/rp2040xiao.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV493DA1B6HTSA2")(type "KiCad")(uri "${KIPRJMOD}/footprints/TLV493DA1B6HTSA2.kicad_sym")(options "")(descr ""))
+)
