@@ -9,7 +9,7 @@ created_at: "2025-06-02"
 
 I want to make a ✨ **computer mouse** ✨. _Revolutionary idea I know right..._ but it's a mouse that can move in a 3D space. Using trackpad for Fusion 360 is pretty annoying so why not make a computer mouse that can pan, home, orbit and fit view by just moving your wrist a bit! There's already a product called _3Dconnexion Spacemouse_ but I am NOT paying A$299 for that...
 
-`SCR-20250602-knwy`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/SCR-20250602-knwy.png?raw=true)
 
 So how do I make something that can turn hand movements into 3D movement on the screen? My system IPO looks like this:
 - **Input:** A control object moves from human hand movements
@@ -22,11 +22,11 @@ back to its home position when released.
 
 TDLR: Here's what I got in mind:
 
-`mechanical-cad`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/mechanical-cad.png?raw=true)
 
 I want to first see if I can feasibly track in the x, y, z axis using a magnetometer so using a few parts that I "borrowed," I made this proof-of-concept!
 
-`mag-prototype`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/mag-prototype.jpeg?raw=true)
 
 It has a _Adafruit TLV493D Triple-Axis Magnetometer_ connected to an Arduino Uno. Here is code to read it!
 ```c
@@ -68,7 +68,7 @@ void loop() {
 ```
 And here it is in action, it works :D
 
-`SCR-20250602-lafm`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/SCR-20250602-lafm.png?raw=true)
 
 *Time spent: 5h*
 
@@ -76,20 +76,18 @@ And here it is in action, it works :D
 
 Yeah so this idea was left in the dust for a while... but it's basically the school holidays! Time to design a PCB for the magnetometer and microcontroller. "Off-camera grinding" led to this schematic:
 
-`SCR-20250624-ldey`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/SCR-20250624-ldey.png?raw=true)
 
-A _Seed Studio Xiao RP2040_ as the brains (as I've had previous experience with it and it was very nice) with a _TLV493DA1B6HTSA2_ (basically the same as the one from the proof-of-concept) for the magnetometer sensor. Also level shifting to converting 5V to 3.3V. 
-
-`SCR-20250624-lfbm`
+A _Seed Studio Xiao RP2040_ as the brains (as I've had previous experience with it and it was very nice) with a _TLV493DA1B6HTSA2_ (basically the same as the one from the proof-of-concept) for the magnetometer sensor. Also level shifting to converting 5V to 3.3V.
 
 And with that, PCB design:
 
-`SCR-20250624-lhzx`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/SCR-20250624-lhzx.png?raw=true)
 
 Very nice design with cats and miku I know right. Showed this to one of my friends annndddd they're like "why do you need level shifting..." which was a great question. Turns out, I don't need it. My beautiful tracing all going to waste :c
 
-`SCR-20250624-lnop`
-`SCR-20250624-loda`
+![](https://github.com/Jayx2u/neonav/blob/main/assets/SCR-20250624-lnop.png?raw=true)
+![](https://github.com/Jayx2u/neonav/blob/main/assets/SCR-20250624-loda.png?raw=true)
 
 Some deleting and changes to the traces later, we have the final PCB design done!
 
