@@ -93,5 +93,11 @@ Some deleting and changes to the traces later, we have the final PCB design done
 
 *Time spent: 7h*
 
-## 2025-06-25 - CAD Designing
-With the electronic systems out the way, it's time for the mechanical systems. 
+## 2025-08-01 - CAD Designing
+We ignore the big time jump, a lot of things has happened... So some Fusion-ing later, here is the "final" model
+
+![SCR-20250801-jnjt.png](assets/SCR-20250801-jnjt.png)
+
+*I hate Fusion, I hate 3D modelling*
+
+*Time spent: 1h*
