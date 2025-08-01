@@ -1,11 +1,14 @@
 # neonav
-neonav is a three degrees of freedom mouse designed for intuitive navigation in 3D virtual environments. Traditional 2D mice fall short when you need to move fluidly through three-dimensional spaces - especially when you're modeling in CAD software. This custom input device captures motion across three axes (X, Y, and Z), allowing you to push, pull, tilt, and rotate your way through 3D environments with natural hand movements.
+neonav is a three degrees of freedom mouse designed for intuitive navigation in 3D virtual environments. Traditional 2D mice fall short when you need to move fluidly through three-dimensional spaces - especially when you're modeling in CAD software. This input device captures motion across three axes (X, Y, and Z), allowing you to push, pull, tilt, and rotate your way through 3D environments with natural hand movements.
 
 ## PCB
 ![SCR-20250801-mjtd.png](assets/SCR-20250801-mjtd.png)
 
 ## Case
 ![SCR-20250801-mkdl.png](assets/SCR-20250801-mkdl.png)
+
+## PCB Schematic
+
 
 ## Bill of Materials
 | Value            | Quantity | LCSC Link                                                                                                                                                   |

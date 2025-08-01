@@ -5,6 +5,8 @@ description: "A three degrees of freedom mouse that allows for swift and efficie
 created_at: "2025-06-02"
 ---
 
+***Total Hours Spent: 13h***
+
 ## 2025-06-02 - The Great Unravelling
 
 I want to make a ✨ **computer mouse** ✨. _Revolutionary idea I know right..._ but it's a mouse that can move in a 3D space. Using trackpad for Fusion 360 is pretty annoying so why not make a computer mouse that can pan, home, orbit and fit view by just moving your wrist a bit! There's already a product called _3Dconnexion Spacemouse_ but I am NOT paying A$299 for that...
